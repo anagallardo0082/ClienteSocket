@@ -18,7 +18,7 @@ public class TCPClient {
 	        BufferedReader  in_socket  =  new  BufferedReader ( new  InputStreamReader (socket.getInputStream())); 
 	        PrintWriter  out_socket  =  new  PrintWriter ( new  OutputStreamWriter (socket.getOutputStream()), true ); 
 	        
-
+            // este es ejemplo de proyecto
 	        // Recibir y mostrar el mensaje de bienvenida del servidor 
 	        String  message  = in_socket.readLine(); 
 	        System.out.println( "El servidor dice: " + message); 
